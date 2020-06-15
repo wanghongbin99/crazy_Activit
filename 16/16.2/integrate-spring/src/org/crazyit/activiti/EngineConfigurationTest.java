@@ -17,10 +17,10 @@ public class EngineConfigurationTest {
 				new String[] { "activiti.cfg.xml" });
 		// 获取processEngine bean
 		ProcessEngine engine = (ProcessEngine)ctx.getBean("processEngine");
-		System.out.println("流程引擎实现类：" + engine.getClass().getName());
+		System.out.println("流程引擎实现类：" + engine.getRepositoryService().createProcessDefinitionQuery().singleResult().getName());
 		// 获取Activiti服务组件
 		TaskService taskService = (TaskService)ctx.getBean("taskService");
-		System.out.println("任务服务实例：" + taskService);
+		System.out.println("任务服务实例：" + taskService.createTaskQuery().singleResult().getName());
 	}
 
 }

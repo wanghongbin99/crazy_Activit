@@ -471,18 +471,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="spring-aop-4.2.5.RELEASE.jar">
+      <library name="spring-beans-4.2.5.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/webapp/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/webapp/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="spring-beans-4.2.5.RELEASE.jar">
+      <library name="spring-aop-4.2.5.RELEASE.jar">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/webapp/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar!/" />
+          <root url="jar://$MODULE_DIR$/webapp/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -600,6 +600,15 @@
       <library name="javax.servlet-api-3.1.0.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/javax.servlet-api-3.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/webapp/WEB-INF/lib/mysql-connector-java-8.0.20.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

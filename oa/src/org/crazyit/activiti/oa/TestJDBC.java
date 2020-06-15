@@ -13,11 +13,11 @@ import java.sql.Statement;
 public class TestJDBC {
 
 	public static void main(String[] args) throws Exception {
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/OA", "root", "123456");
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/OA?charset=utf8", "oa", "123456");
 		
 		Statement stmt = conn.createStatement();
-		ResultSet rs = stmt.executeQuery("select BYTES_ from ACT_GE_BYTEARRAY where ID_ = 16");
+		ResultSet rs = stmt.executeQuery("select BYTES_ from ACT_GE_BYTEARRAY where ID_ = 27");
 		while(rs.next()) {                                                                                       
 			byte[] bs = rs.getBytes(1);
 			String s = new String(bs);

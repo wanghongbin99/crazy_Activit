@@ -1051,15 +1051,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="mysql-connector-java-5.1.42.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../common-lib/lib/mysql-connector-java-5.1.42.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="slf4j-api-1.7.9.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../../common-lib/lib/slf4j-api-1.7.9.jar!/" />
@@ -1167,5 +1158,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-8.0.20" level="project" />
   </component>
 </module>

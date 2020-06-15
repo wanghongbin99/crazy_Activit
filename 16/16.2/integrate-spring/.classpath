@@ -105,7 +105,7 @@
 	<classpathentry kind="lib" path="/common-lib/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="/common-lib/lib/mail-1.4.7.jar"/>
 	<classpathentry kind="lib" path="/common-lib/lib/mybatis-3.4.4.jar"/>
-	<classpathentry kind="lib" path="/common-lib/lib/mysql-connector-java-5.1.42.jar"/>
+	<classpathentry kind="lib" path="/common-lib/lib/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="lib" path="/common-lib/lib/slf4j-api-1.7.9.jar"/>
 	<classpathentry kind="lib" path="/common-lib/lib/slf4j-log4j12-1.7.9.jar"/>
 	<classpathentry kind="lib" path="/common-lib/lib/spring/aopalliance-1.0.jar"/>
